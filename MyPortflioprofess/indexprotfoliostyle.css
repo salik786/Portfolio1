@@ -1,0 +1,189 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "robotica", sans-serif;
+
+  background-color: #caccce;
+}
+#nav-div {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  position: relative;
+  float: right;
+  margin: 0;
+  padding: 0;
+  margin-right: 70px;
+}
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+nav ul li a {
+  line-height: 60px;
+  color: white;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  font-size: 12px;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid white;
+  font-size: 13px;
+}
+nav ul li a.active {
+  border-bottom: 2px solid #ffffff;
+}
+
+h2 {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.name {
+  margin-left: 70px;
+  font-family: "Passion One", cursive;
+  font-weight: lighter;
+}
+
+/* Top left text */
+.firstpage-center {
+  height: 500px;
+}
+.top-left {
+  position: absolute;
+
+  text-align: center;
+  top: 32%;
+  left: 30%;
+}
+.imagetext {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  color: white;
+}
+.pclass {
+  width: 450px;
+  padding-left: 12px;
+  font-size: 17px;
+  color: white;
+  font-weight: lighter;
+}
+.secondpage-center {
+  height: 830px;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+.heading1 {
+  padding-top: 30px;
+  margin-left: 40%;
+  color: #1e3d59;
+}
+.centerbox {
+  width: 100%;
+  height: 500px;
+
+  position: relative;
+  top: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #1e3d59;
+  background-color: #f9f9f9;
+  margin: auto;
+}
+.secondpage-imagebox {
+  position: relative;
+  margin-top: 40px;
+  border-radius: 150px;
+  bottom: 0;
+  left: 10%;
+  right: 0;
+}
+.secondpage-aboutme {
+  height: 600px;
+  width: 600px;
+  margin-top: -200px;
+  padding-left: 430px;
+}
+.secondpage-moreinfobtn {
+  height: 40px;
+  width: 90px;
+  margin-top: 18 px;
+  margin-left: 930px;
+  background-color: #1e3d59;
+  color: #f9f9f9;
+  border-color: #1e3d59;
+  border-radius: 5px;
+}
+.secondpage-work {
+  width: 100%;
+  height: 500px;
+
+  position: relative;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #1e3d59;
+  background-color: #f0eef0;
+  margin: auto;
+}
+.box {
+  font-family: "Raleway", sans-serif;
+  height: 400px;
+  width: 430px;
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 25px;
+  background-color: #f0eef0;
+}
+.box1image {
+  padding-left: 130px;
+}
+.thirdpage-center {
+  height: 700px;
+
+  position: relative;
+  margin: auto;
+  top: 60%;
+  width: 100%;
+  background-color: #f9f9f9;
+}
+.box3 {
+  margin-left: 6px;
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  height: 400px;
+  width: 260px;
+  color: #f0eef0;
+  background-color: #1e3d59;
+}
+.fifthpage-contactme {
+  height: 400px;
+  top: 0;
+  position: relative;
+
+  top: 40%;
+  width: 100%;
+  background-color: #f0eef0;
+  margin: auto;
+}
+.videos-table {
+  width: 100%;
+  height: 30px;
+  bottom: 0px;
+  text-align: center;
+  position: relative;
+  background-color: #f0eef0;
+}
+td {
+  padding: 20px;
+}
